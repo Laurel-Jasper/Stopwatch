@@ -1,0 +1,113 @@
+/* GLOBAL */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Readex Pro", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LEGEND STYLES */
+
+.legend-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  width: 500px;
+  flex-wrap: wrap;
+  background-color: rgb(239, 239, 239);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+/* HEADER STYLES */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+/* BUTTONS */
+
+.default-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border-style: none;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 18px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.start-button {
+  border: rgb(57, 106, 255) solid 1px;
+  color: rgb(57, 106, 255);
+}
+
+.stop-button {
+  border: rgb(255, 47, 47) solid 1px;
+  color: rgb(255, 47, 47);
+  display: none;
+}
+
+.lap-button {
+  border: rgb(255, 47, 47) solid 1px;
+  color: rgb(255, 47, 47);
+}
+
+.lap-button:hover {
+  border: rgb(57, 106, 255) solid 1px;
+  color: rgb(57, 106, 255);
+}
+
+.reset-button {
+  border: rgb(198, 198, 198) solid 1px;
+  color: rgb(198, 198, 198);
+  display: none;
+}
+
+/* HERO STYLES */
+
+.hero-container {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.watch-face {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  padding: 24px;
+}
+
+.time-logs {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
