@@ -47,16 +47,16 @@ body {
   cursor: pointer;
 }
 
-.start-button {
+#multiple-button {
   border: rgb(57, 106, 255) solid 1px;
   color: rgb(57, 106, 255);
 }
 
-.stop-button {
+/* #stop-button {
   border: rgb(255, 47, 47) solid 1px;
   color: rgb(255, 47, 47);
   display: none;
-}
+} */
 
 .lap-button {
   border: rgb(255, 47, 47) solid 1px;
