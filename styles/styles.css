@@ -47,9 +47,11 @@ body {
   cursor: pointer;
 }
 
-#multiple-button {
-  border: rgb(57, 106, 255) solid 1px;
-  color: rgb(57, 106, 255);
+#start-stop-button {
+  border: rgb(57, 106, 255) solid 3px;
+  color: rgb(239, 239, 239);
+  background-color: rgb(57, 106, 255);
+  box-shadow: inset 0px 0px 0px 2px rgb(239, 239, 239);
 }
 
 /* #stop-button {
@@ -58,21 +60,19 @@ body {
   display: none;
 } */
 
-.lap-button {
-  border: rgb(255, 47, 47) solid 1px;
-  color: rgb(255, 47, 47);
+#lap-reset-button {
+  border: rgb(71, 71, 71) solid 3px;
+  color: rgb(205, 205, 205);
+  background-color: rgb(71, 71, 71);
+  box-shadow: inset 0px 0px 0px 2px rgb(239, 239, 239);
 }
 
-.lap-button:hover {
-  border: rgb(57, 106, 255) solid 1px;
-  color: rgb(57, 106, 255);
-}
 
-.reset-button {
+/* .reset-button {
   border: rgb(198, 198, 198) solid 1px;
   color: rgb(198, 198, 198);
   display: none;
-}
+} */
 
 /* HERO STYLES */
 
